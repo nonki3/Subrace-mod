@@ -10,36 +10,67 @@ BG1EE、BG2EE、IWDEE用のSubrace（亜種族） mod。
 *The mod adds subraces from the game Icewind Dale 2 to the Enhanced Edition games. Installation requires game versions 2.5+.*
 *There is a choice when creating a character. Various UIs are supported, only multiplayer and pre-character creation are not supported.*
 
-このMODは「Icewind Dale 2」の亜種族をBaldur's Gate Enhanced Edition、Baldur's Gate II Enhanced Edition、Icewind Dale Enhanced Editionのゲームに追加するものです。インストールするためにはゲームのバージョンが2.5以上でなければいけません。
-キャラクター作成時に選択肢があります。各種UIに対応していますが、マルチプレイヤーとキャラクターの事前作成には対応していません。
+このMODは「Icewind Dale 2の亜種族」をBaldur's Gate Enhanced Edition、Baldur's Gate II Enhanced Edition、Icewind Dale Enhanced Editionなどのゲームに追加するものです。インストールするためにはゲームのバージョンが2.5以上でなければいけません。
+キャラクター作成時に選択することができます。各種UIに対応していますが、マルチプレイヤーとキャラクターの事前作成には対応していません。
 
-To check the subrace, the local variable SUBRACE is set. You can check the subrace using this  variable with TriggerOverride(Player1,Global ("SUBRACE","LOCALS",3)).
+*To check the subrace, the local variable SUBRACE is set. You can check the subrace using this  variable with TriggerOverride(Player1,Global ("SUBRACE","LOCALS",3)).*
 
-Available Values:
-1: Aasimar
-2: Tiefling
-3: Drow
-4: Wild Elf
-5: Gold Dwarf
-6: Gray Dwarf (Duergar)
-7: Strongheart Halfling
-8: Ghostwise Halfling
-9: Deep Gnome (Svirfneblin)
+ローカル変数「SUBRACE」で亜種族を設定しています。この変数 ```TriggerOverride(Player1,Global ("SUBRACE", "LOCALS",3))``` で亜種族を確認することができます。
 
-Subrace has also been added to Viconia(Drow), Baeloth(Drow), Haerdalis(Tiefling), and Caelar(Aasimar). They can be checked in the same way. 
+*Available Values:*
+*1: Aasimar*
+*2: Tiefling*
+*3: Drow*
+*4: Wild Elf*
+*5: Gold Dwarf*
+*6: Gray Dwarf (Duergar)*
+*7: Strongheart Halfling*
+*8: Ghostwise Halfling*
+*9: Deep Gnome (Svirfneblin)*
 
-AASIMAR
-Aasimar carry the blood of a celestial, the begotten offspring from the union of a mortal and a deity.  Aasimar are usually good-aligned and fight against evil in the world.  They typically have fair skin, golden eyes, and often a birthmark in the shape of the deity's holy symbol.  Aasimar are blessed with insight and personal magnetism and are typically paladins.
+使用可能な亜種族と設定値:
+1: アアシマール
+2: ティーフリング
+3: ドラウ
+4: ワイルド・エルフ
+5: ゴールド・ドワーフ
+6: グレイ・ドワーフ (デュエルガー)
+7: ストロングハート・ハーフリング
+8: ゴーストワイズ・ハーフリング
+9: ディープノーム (スヴィルフネブリン)
 
-Advantages:
- +1 Wisdom
- +1 Charisma
- Acid, cold, and electrical resistance: +20
- Sunscorch 1/Day
+
+*Subrace has also been added to Viconia(Drow), Baeloth(Drow), Haerdalis(Tiefling), and Caelar(Aasimar). They can be checked in the same way.*
+
+ヴィコニア（ドラウ）、バエロス（ドラウ）、エルダリス（ティーフリング）、ケイラ（アアシマール）にも亜人種が追加されます。彼彼女らについても同様に確認することができます。
+
+
+*AASIMAR*
+*Aasimar carry the blood of a celestial, the begotten offspring from the union of a mortal and a deity.  Aasimar are usually good-aligned and fight against evil in the world.  They typically have fair skin, golden eyes, and often a birthmark in the shape of the deity's holy symbol.  Aasimar are blessed with insight and personal magnetism and are typically paladins.*
+
+*Advantages:*
+ *+1 Wisdom*
+ *+1 Charisma*
+ *Acid, cold, and electrical resistance: +20*
+ *Sunscorch 1/Day*
+ *Darkvision*
+ 
+*Disadvantages:*
+ *Gets only 95% of experience*
+
+アアシマール
+アアシマールは天界人の血を引いており、人間と神との結合によって生まれた子供です。アアシマールは通常、善と結びついており、世の中の悪と戦います。 彼らの多くは白い肌と金色の目をもち、神の聖なるシンボルの形をした痣があります。アアシマールは洞察力とカリスマ性に恵まれており、パラディンとなることがほとんどです。
+
+利点:
+ +1 ウィズダム
+ +1 カリスマ
+ 酸, 冷気, 電撃に対する耐性: +20
+ サンスコーチ 1/Day
  Darkvision
  
-Disadvantages:
- Gets only 95% of experience
+欠点:
+ 得られる経験値が95%となる
+
 
 TIEFLING
 The infernal counterpart to aasimar, tieflings are humans with a hint of the diabolical in their bloodline. Though their appearance is mostly human, they often have telltale signs that belie their ancestry. Tieflings usually have dusky skin and dark or reddish hair. Though many sport small horns, cat eyes, or other bizarre features, most tieflings try to hide their abnormalities from humans.
