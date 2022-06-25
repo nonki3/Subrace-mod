@@ -17,6 +17,7 @@ BG1EE、BG2EE、IWDEE用のSubrace（亜種族） mod。
 
 ローカル変数「SUBRACE」で亜種族を設定しています。この変数 ```TriggerOverride(Player1,Global ("SUBRACE", "LOCALS",3))``` で亜種族を確認することができます。
 
+
 *Available Values:*
 *1: Aasimar*
 *2: Tiefling*
@@ -42,7 +43,7 @@ BG1EE、BG2EE、IWDEE用のSubrace（亜種族） mod。
 
 *Subrace has also been added to Viconia(Drow), Baeloth(Drow), Haerdalis(Tiefling), and Caelar(Aasimar). They can be checked in the same way.*
 
-ヴィコニア（ドラウ）、バエロス（ドラウ）、エルダリス（ティーフリング）、ケイラ（アアシマール）にも亜人種が追加されます。彼彼女らについても同様に確認することができます。
+ヴィコニア（ドラウ）、バエロス（ドラウ）、エルダリス（ティーフリング）、ケイラ（アアシマール）にも亜人種が適用されます。彼女らについても同様に確認することができます。
 
 
 *AASIMAR*
@@ -59,48 +60,80 @@ BG1EE、BG2EE、IWDEE用のSubrace（亜種族） mod。
  *Gets only 95% of experience*
 
 アアシマール
-アアシマールは天界人の血を引いており、人間と神との結合によって生まれた子供です。アアシマールは通常、善と結びついており、世の中の悪と戦います。 彼らの多くは白い肌と金色の目をもち、神の聖なるシンボルの形をした痣があります。アアシマールは洞察力とカリスマ性に恵まれており、パラディンとなることがほとんどです。
+アアシマールは天界人の血を引いており、人間と神との結合によって生まれた子供である。アアシマールは通常、善と結びついており、世の中の悪と戦う。 彼らの多くは白い肌と金色の目をもち、神の聖なるシンボルの形をした痣がある。アアシマールは洞察力とカリスマ性に恵まれており、そのほとんどがパラディンとなる。
 
 利点:
  +1 ウィズダム
  +1 カリスマ
  酸, 冷気, 電撃に対する耐性: +20
  サンスコーチ 1/Day
- Darkvision
+ 暗視
  
 欠点:
  得られる経験値が95%となる
 
 
-TIEFLING
-The infernal counterpart to aasimar, tieflings are humans with a hint of the diabolical in their bloodline. Though their appearance is mostly human, they often have telltale signs that belie their ancestry. Tieflings usually have dusky skin and dark or reddish hair. Though many sport small horns, cat eyes, or other bizarre features, most tieflings try to hide their abnormalities from humans.
+*TIEFLING*
+*The infernal counterpart to aasimar, tieflings are humans with a hint of the diabolical in their bloodline. Though their appearance is mostly human, they often have telltale signs that belie their ancestry. Tieflings usually have dusky skin and dark or reddish hair. Though many sport small horns, cat eyes, or other bizarre features, most tieflings try to hide their abnormalities from humans.*
 
-Advantages:
- +1 Intelligence
- +1 Dexterity
- Fire, cold, and electrical resistance: +20 
- +10 Hide in shadows and Move silently
- Blindness 1/Day
- Darkvision
+*Advantages:*
+ *+1 Intelligence*
+ *+1 Dexterity*
+ *Fire, cold, and electrical resistance: +20* 
+ *+10 Hide in shadows and Move silently*
+ *Blindness 1/Day*
+ *Darkvision*
 
-Disadvantages:
- -1 Charisma
- Gets only 95% of experience
+*Disadvantages:*
+ *-1 Charisma*
+ *Gets only 95% of experience*
 
-DROW
-Dark elves, also known as drow, are the subterranean cousins of moon elves. Their black skin and pale hair are a curse for their allegiance with the spider goddess, Lolth. Drow societies are usually ruled by cruel priestesses of Lolth and their noble houses. Dark elves are known for their arrogance, cruelty, and penchant for civil war.
+ティーフリング
+アアシマールの対極となる凶悪なティーフリングは、悪魔の血統が混ざった人間である。外見はほとんど人間であるが、しばしばその祖先とは思えないような兆候を示すことがある。ティーフリングは通常、くすんだ肌と黒または赤みがかった髪をしている。小さな角や猫の目など、奇妙な特徴を持つ者も多いが、ほとんどのティーフリングはその異常を他人から隠そうとする。
 
-Advantages:
- +1 Intelligence
+利点:
+ +1 インテリジェンス
+ +1 デクスタリティ
+ 火気, 冷気, 電撃に対する耐性: +20 
+ ハイドインシャドウとムーブサイレントリー: +10
+ ブラインドネス 1/Day
+ 暗視
+
+欠点:
+ -1 カリスマ
+ 得られる経験値が95%となる
+
+
+*DROW*
+*Dark elves, also known as drow, are the subterranean cousins of moon elves. Their black skin and pale hair are a curse for their allegiance with the spider goddess, Lolth. Drow societies are usually ruled by cruel priestesses of Lolth and their noble houses. Dark elves are known for their arrogance, cruelty, and penchant for civil war.*
+
+*Advantages:*
+ *+1 Intelligence*
+ *+1 Charisma*
+ *+2 Search traps*
+ *50% Magic resistance*
+ *+1 to Saving throws against spells*
+ *Faerie Fire 3/day*
+
+*Disadvantages:*
+ *Light Blindness: -1 THAC0 and save throws in daylight*
+ *Gets only 90% of experience*
+
+ドラウ
+ダークエルフ、通称ドラウは地底にいるムーンエルフの従兄弟にあたる。黒い肌と青白い髪は、蜘蛛の女神ロルスに忠誠を誓うがゆえの呪いである。ドラウの社会は通常、ロルスの残酷な巫女とその貴族によって支配されている。ダークエルフは傲慢で残酷、そして内戦を好むことで知られている。
+
+利点:
+ +1 インテリジェンス
  +1 Charisma
  +2 Search traps
- 50% Magic resistance
- +1 to Saving throws against spells
- Faerie Fire 3/day
+ 50% マジックレジスタンス
+ +1 対呪文セービングスロー
+ フェアリーファイア 3/day
 
-Disadvantages:
- Light Blindness: -1 THAC0 and save throws in daylight
- Gets only 90% of experience
+欠点:
+ Light Blindness: 日中のセービングスローとTHAC0に-1
+ 得られる経験値が90%となる
+
 
 WILD ELF
 The rare wild elves are rarely seen by others, because they live in the heart of thick forests and they have incredible skill at keeping hidden.  Also called green elves, their skin tends to be dark brown, and their hair ranges from black to light brown, lightening to silvery white with age.
